@@ -23,9 +23,32 @@ GitHub Repo: https://github.com/dhg/Skeleton
 
 The main things you will need to change are the Google Sheets URI and the Paypal email address in the main.js file.
 
+You can [download the files from GitHub](https://github.com/bradonomics/simplesheets-shopping-cart/archive/master.zip) (or clone the repo: `git clone https://github.com/bradonomics/simplesheets-shopping-cart.git`) and have a fully functioning shopping cart in minutes.
+
 ### What's in the download?
 
-The download includes all the HTML, CSS and JS files you'll need to run the shopping cart. You can [download the files from GitHub](https://github.com/bradonomics/simplesheets-shopping-cart/archive/master.zip) (or clone the repo: `git clone https://github.com/bradonomics/simplesheets-shopping-cart.git`) and have a fully functioning shopping cart in minutes.
+The download includes all the HTML, CSS and JS files you'll need to run the shopping cart.
+
+```
+simplesheets-shopping-cart/
+├── css/
+│   ├── font-awesome.min.css
+│   └── main.css
+├── fonts/
+│   ├── fontawesome-webfont.eot
+│   ├── fontawesome-webfont.svg
+│   ├── fontawesome-webfont.ttf
+│   ├── fontawesome-webfont.woff
+│   ├── fontawesome-webfont.woff
+│   └── FontSwesome.otf
+├── js/
+│   ├── handlebars.min.js
+│   ├── jquery-1.11.3.min.js
+│   ├── main.js
+│   ├── sheetrock.min.js
+│   └── simpleCart.min.js
+└── index.html
+```
 
 ## License
 
