@@ -2,12 +2,6 @@ Fix Grid layout when some items have a longer description
 
 Fix Responsive-ness
 
-Create github repo
-
-Update images in spreadsheet
-
-Setup Demo page on demo.bradonomics.com/simplesheets-shopping-cart/
-
 Test demo page
 
 Write blog post about app
