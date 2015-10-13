@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>SimpleSheets Shopping Cart Demo</title>
+  <link rel='stylesheet' href="//fonts.googleapis.com/css?family=Duru+Sans|Istok+Web">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div class="site-container">
+
+    <header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+      <div class="wrap">
+
+        <div class="title-area">
+          <h1 class="site-title" itemprop="headline"><a href="/">simpleCart<sup>(js)</sup> + Google Sheets</a></h1>
+        </div>
+
+        <div class="simplecart_area">
+          <div class="simplecart_cart">
+            <span class="showCart">
+          <span class="fa fa-shopping-cart"></span>
+            <span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
+            <span class="dropdown fa fa-chevron-circle-down"></span>
+            </span>
+            <button class="simpleCart_checkout">Checkout</button>
+            <div id="cartPopover" style="display:none">
+              <div class="simpleCart_items"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <div class="site-inner">
+      <div class="wrap">
+
+        <div id="products" class="products">
+
+          <script id="hr-template" type="text/x-handlebars-template">
+            <div class="column one-third">
+              <div class="simpleCart_shelfItem item">
+                <div class="item_image"><img src="{{cells.Image}}"></div>
+                <h2 class="item_name">{{cells.Name}}</h2>
+                <div class="item_description">{{cells.Description}}</div>
+                <div style="margin-top:10px;">
+                  <span class="item_price">${{cells.Price}}</span>
+                  <button href="javascript:;" class="item_add">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </script>
+
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <p>Copyright &copy; 2015 by <a href="http://bradonomics.com/">Brad West</a> | SimpleSheets Shopping Cart</p>
+    </footer>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/simpleCart.min.js"></script>
+    <script src="js/handlebars.min.js"></script>
+    <script src="js/sheetrock.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </div>
+
+</body>
+
+</html>
