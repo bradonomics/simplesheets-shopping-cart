@@ -19,7 +19,7 @@ GitHub Repo: https://github.com/dhg/Skeleton
 
 ## Getting Started
 
-The documentation---what little there is---is available here: http://bradonomics.com/simplesheets-shopping-cart/
+The documentation—what little there is—is available here: http://bradonomics.com/simplesheets-shopping-cart/
 
 The main things you will need to change are the Google Sheets URI and the Paypal email address in the main.js file.
 
