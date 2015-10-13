@@ -1,31 +1,31 @@
 # SimpleSheets Shopping Cart
+Checkout the demo here: http://demo.bradonomics.com/simplesheets-shopping-cart/
+
 SimpleSheets Shopping Cart is a simple shopping cart app that uses Google Sheets for product management and Paypal for checkout. It incorporates work from the following:
 
 #### simpleCart(js)
-Homepage: http://simplecartjs.org/
+Homepage: http://simplecartjs.org/<br>
 GitHub Repo: https://github.com/wojodesign/simplecart-js
 
 #### Handlebars.js
-Homepage: http://handlebarsjs.com/
+Homepage: http://handlebarsjs.com/<br>
 GitHub Repo: https://github.com/wycats/handlebars.js
 
 #### Sheetrock.js
-Homepage: http://chriszarate.github.io/sheetrock/
+Homepage: http://chriszarate.github.io/sheetrock/<br>
 GitHub Repo: https://github.com/chriszarate/sheetrock
 
 #### Skeleton
-Homepage: http://getskeleton.com/
+Homepage: http://getskeleton.com/<br>
 GitHub Repo: https://github.com/dhg/Skeleton
 
 ## Getting Started
-
-The documentation—what little there is—is available here: http://bradonomics.com/simplesheets-shopping-cart/
 
 The main things you will need to change are the Google Sheets URI and the Paypal email address in the main.js file.
 
 ### What's in the download?
 
-The download includes all the HTML, CSS and JS files you'll need to run the shopping cart. You can [download the files from GitHub](https://github.com/bradonomics/genesis-boilerplate/archive/master.zip) (or clone the repo: `git clone https://github.com/bradonomics/genesis-boilerplate.git`) and have a fully functioning shopping cart in minutes.
+The download includes all the HTML, CSS and JS files you'll need to run the shopping cart. You can [download the files from GitHub](https://github.com/bradonomics/simplesheets-shopping-cart/archive/master.zip) (or clone the repo: `git clone https://github.com/bradonomics/simplesheets-shopping-cart.git`) and have a fully functioning shopping cart in minutes.
 
 ## License
 
