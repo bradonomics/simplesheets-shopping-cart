@@ -362,6 +362,11 @@ td {
   padding-left: 15px;
 }
 
+/* Since there are no rows, you'll need to change the nth-child if you decide to change the number of columns or your columns won't wrap correctly. */
+.column:nth-child(3n+2) {
+  clear: both;
+}
+
 .one-half,
 .one-third,
 .one-forth {
