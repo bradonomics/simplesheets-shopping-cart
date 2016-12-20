@@ -1,5 +1,5 @@
 # SimpleSheets Shopping Cart
-Checkout the demo here: http://demo.bradonomics.com/simplesheets-shopping-cart/
+Checkout the demo here: http://bradonomics.github.io/simplesheets-shopping-cart/
 
 The Spreadsheet with the data can bee seen here: https://docs.google.com/spreadsheets/d/11BNDZeQ4nqwVA-BYViMeM1QfWBtqJT-hqKpc6hh22aM/
 
